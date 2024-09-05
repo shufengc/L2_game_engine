@@ -43,18 +43,23 @@ make
 #### Clone the repository
 ```bash
 git clone https://github.com/shufengc/L2-game-engine.git
-
+```
 #### Navigate to the directory
+```bash
 cd L2-game-engine
-
+```
 #### Create a build directory
+```bash
 mkdir build && cd build
-
+```
 #### Generate Xcode project files using CMake
+```bash
 cmake -G Xcode ..
-
+```
 #### Open the project in Xcode and build
+```bash
 open L2-game-engine.xcodeproj
+```
 
 ### Building on Windows
 
@@ -68,9 +73,11 @@ Once the engine is built, you can start integrating Lua scripts to define your g
 ### Example Lua Script
 
 -- Example to create a player and enable joystick input
+```Lua
 local player = CreateActor("Player")
 player:SetPosition(0, 0)
 player:EnableJoystickInput(1) -- 1 for first joystick
+```
 
 ## Development Process Summary
 
