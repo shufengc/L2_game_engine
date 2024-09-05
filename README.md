@@ -24,19 +24,25 @@ Before building the engine, ensure that you have the following installed:
 ### Building on Linux
 
 #### Clone the repository
+```bash
 git clone https://github.com/shufengc/L2-game-engine.git
-
+```
 #### Navigate to the directory
+```bash
 cd L2-game-engine
-
+```
 #### Create a build directory
+```bash
 mkdir build && cd build
-
+```
 #### Generate build files using CMake
+```bash
 cmake ..
-
+```
 #### Build the project
+```bash
 make
+```
 
 ### Building on OSX
 
